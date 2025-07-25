@@ -562,4 +562,10 @@ section {
     flex: 1;
     min-width: 80px;
   }
+  .plant-card:nth-child(7) {
+      display: none;
+  }
+  .plant-card:nth-child(8) {
+      display: none;
+  }
 }
