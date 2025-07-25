@@ -11,7 +11,6 @@
 }
 body {
   font-family: "Inter", sans-serif;
-  /* background-color: #f0f0f0; */
   background-color: #ffffff;
   color: #333;
 }
@@ -30,8 +29,6 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 12px 24px; */
-  /* background-color: #fefefe; */
   padding: 10px 20px;
 }
 .logo-block {
@@ -43,17 +40,6 @@ section {
   width: 135px;
   height: 71px; 
 }
-/* 
-.logo-text h1 {
-  margin: 0;
-  font-size: 22px;
-  color: #e74c3c;
-}
-.logo-text p {
-  margin: 0;
-  font-size: 12px;
-  color: #e74c3c;
-} */
 .search-block {
     display: flex;
     align-items: center;
@@ -87,8 +73,8 @@ section {
 }
 
 /* Header Section end */
-/* Main Section start */
 
+/* Main Section start */
 /* hero Section start */
 
 .section-container {
@@ -98,7 +84,6 @@ section {
   align-items: flex-end;
   justify-content: space-between;
   gap: 40px;
-  /* padding: 40px 0px; */
   font-family: 'Segoe UI', sans-serif;
 }
 .text-block {
@@ -127,7 +112,6 @@ section {
 .image-block {
   width: 100%;
   flex: 1;
-  /* text-align: right; */
 }
 .image-block img {
   max-width: 100%;
@@ -140,7 +124,6 @@ section {
 .plant-container {
   max-width: 1140px;
   margin: 0 auto;
-  /* padding: 40px 0px; */
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
 }
@@ -167,10 +150,8 @@ section {
   gap: 20px;
 }
 .plant-card {
-  /* width: 240px; */
   background-color: #fff;
   border: 0px solid #ddd;
-  /* padding: 15px; */
   text-align: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
@@ -216,7 +197,6 @@ section {
   margin: 0 auto;
   display: flex;
   gap: 80px;
-  /* padding: 60px 20px; */
   align-items: center;
   font-family: 'Segoe UI', sans-serif;
 }
@@ -269,6 +249,8 @@ section {
   font-size: 45px;
   margin-bottom: 16px;
   font-weight: 600;
+  color: #e67e22;
+  font-family: 'Noto Serif';
 }
 .latest-container p {
   font-size: 16px;
@@ -282,7 +264,6 @@ section {
   margin: 0 auto;
   display: flex;
   gap: 20px;
-  /* padding: 60px 20px; */
   font-family: 'Segoe UI', sans-serif;
 }
 .promo-left {
@@ -301,7 +282,6 @@ section {
 }
 .promo-box.tall {
   height: 100%;
-  /* align-items: center; */
   justify-content: center;
   display: flex;
 }
@@ -323,9 +303,7 @@ section {
   padding: 15px 20px;
   border-radius: 8px;
   text-align: center;
-  /* justify-content: center; */
   align-items: center;
-  /* display: flex; */
   align-content: center;
 }
 .promo-overlay h3 {
@@ -333,28 +311,21 @@ section {
   font-size: 22px;
 }
 .promo-overlay button {
-  /* padding: 8px 16px; */
   font-size: 20px;
   background-color: transparent;
   color: #fff;
   border-bottom: 1px solid white;
-  /* border-radius: 5px; */
   cursor: pointer;
   border-top: 0px;
   border-right: 0;
   border-left: 0;
   margin-top: 5px;
 }
-.promo-overlay button:hover {
-  background-color: #cf6d17;
-}
 
 /* Deals Section end */
 /* Subscribe Section start */
 
 .subscribe-container {
-  /* max-width: 1140px;
-  margin: 0 auto; */
   padding: 150px 20px;
   background: url('./assets/news-letter-bg.png') no-repeat center center;
   background-size: cover;
@@ -363,7 +334,6 @@ section {
   width: 100%;
 }
 .subscribe-content {
-  /* background-color: rgba(255, 255, 255, 0.85); */
   padding: 40px;
   width: 100%;
   max-width: 1000px;
@@ -382,27 +352,22 @@ section {
   justify-content: center;
   flex-wrap: wrap;
   max-width: 100%;
-  /* gap: 10px; */
   align-content: center;
 }
 .subscribe-form input {
   padding: 12px 16px;
   font-size: 16px;
   border: 1px solid #ccc;
-  /* border-radius: 5px; */
   width: 80%;
-  /* max-width: 700px; */
   outline: none;
 }
 .subscribe-form button {
-  /* width: 10%; */
   padding: 13px 24px;
   font-size: 16px;
   background-color: #e67e22;
   color: white;
   font-weight: 600;
   border: none;
-  /* border-radius: 5px; */
   cursor: pointer;
   transition: background-color 0.2s ease;
 }
@@ -423,7 +388,6 @@ section {
   justify-content: space-between;
   gap: 40px;
   background-color: #fff;
-  /* border-top: 1px solid #eee; */
   font-family: 'Segoe UI', sans-serif;
 }
 .footer-logo-block {
@@ -521,8 +485,6 @@ section {
     padding: 0;
     display: flex;
     flex-direction: column-reverse;
-    /* text-align: center; */
-    /* gap: 30px; */
   }
   .text-block h2 {
     font-size: 32px;
